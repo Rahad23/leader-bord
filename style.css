@@ -223,7 +223,7 @@ hr{
 
 @media only screen and (max-width: 768px){
     .lets-course-section .flex-set {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        justify-content: center;
     }
 }
