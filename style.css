@@ -184,7 +184,6 @@ hr{
         grid-template-columns: repeat(1, 1fr);
     }
     .set-flex {
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 }
@@ -221,9 +220,18 @@ hr{
         }
 }
 
-@media only screen and (max-width: 768px){
-   .lets-course-section .flex-set {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+@media only screen and (max-width: 800px){
+    .lets-course-section .flex-set {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+.lets-course-section .text-lests-course h3 {
+        text-align: center;
+        margin-bottom: 22px;
+    }
+.lets-course-section .course-img-text{
+    margin-bottom: 30px;
 }
 }
