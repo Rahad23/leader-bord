@@ -190,7 +190,7 @@ hr{
 }
 @media only screen and (max-width: 688px){
         .top-playar{
-            grid-template-columns: repeat(1, 1fr);
+            grid-template-columns: repeat(2, 1fr);
         }
         .t-b-grid{
             grid-template-columns: repeat(1, 1fr);
